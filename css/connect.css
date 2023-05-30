@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar{
+    width: 100%;
+    background-color: #333;
+    overflow: auto;
+}
+.navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+.navbar h1 a {
+    text-decoration: none;
+    color: #fff;
+    padding-top: 20px;
+}
+.navbar ul {
+    float: right;
+}
+ul li {
+    float: left;
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 25px;
+}
+ul li a:hover,
+.current{
+    color: #f7c08a;
+    background-color: #444;
+}
+.text-primary{
+    color: #f7c08a;
+}
+#contact-form{
+    padding: 20px 0;
+}
+#contact-form h1{
+    font-size: 32px;
+}
+p{
+    margin: 10px 0;
+}
+form{
+    display: block;
+}
+#contact-form .formgroup{
+    margin-bottom: 20px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.submit{
+    background-color: red;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    padding: 13px 20px;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #333;
+}
+#contact-info{
+    display: inline-block;
+    width: 100%;
+}
+.bg-dark{
+    background-color: #333;
+    color: #fff;
+}
+.box{
+    width: 33.3%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+
+}
+.box i{
+    margin-bottom: 10px;
+}
+h3{
+    padding-bottom: 20px;
+}
+.clr{
+    clear: both;
+}
+.footer{
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+}
+.footer p{
+    padding: 10px 0;
+}

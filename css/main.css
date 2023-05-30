@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar{
+    width: 100%;
+    background-color: #333;
+    overflow: auto;
+}
+.navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+.navbar h1 a {
+    text-decoration: none;
+    color: #fff;
+    padding-top: 20px;
+}
+.navbar ul {
+    float: right;
+}
+ul li {
+    float: left;
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 25px;
+}
+ul li a:hover,
+.current{
+    color: #f7c08a;
+    background-color: #444;
+}
+.showcase{
+    background-image: url("../images/showcase.jpg");
+    height: 600px;
+    background-position: center;
+}
+.text{
+    margin-left: 38%;
+    display: inline-block;
+    margin-top: 170px;
+    font-size: 65px;
+    color: #fff;
+}
+.enjoy{
+    color: #f7c08a;
+}
+.p-text{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    background-color: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 45%;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: black;
+}
+.home-info{
+    height: 400px;
+}
+.info-img{
+    background-image: url("../images/photo-1.jpg");
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+.info-content{
+    text-align: center;
+    background-color: #333;
+    height: 300px;
+    color: #fff;
+    padding: 50px 30px;
+}
+.info-text{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.info-content h2 {
+    padding-bottom: 20px;
+}
+.info-btn{
+    text-decoration: none;
+    color: black;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+    background-color: #fff;
+}
+.box{
+    width: 28%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-primary{
+    background-color: #f7c08a;
+    color: #333;
+}
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+.clr{
+    clear: both;
+}
+.footer{
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+}
+.footer p{
+    padding: 10px 0;
+}
